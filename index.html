@@ -1,0 +1,59 @@
+<!------To create the HTML info in vscode------->
+<!--Type in "!", and Vscode will pop us a menu bar. You're going to click on the first selecton that shows the "!".--->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOM Assessment</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="app">
+
+
+        <h1 id="main-title">Welcome to My Grocery Shopping Application</h1>
+
+        <!--Website description-->
+        <!--<p> tag: This creates a paragraph.-->
+        <p id="description">This is a simple web application demonstrating DOM manipulation Here you can add grocery
+            list items to your cart.</p>
+
+
+        <!--<ul> tag: This creates an unordered list (a list with bullet points).-->
+        <ul id="item-list">
+            <!--<li> tag: This creates a list item.-->
+            <li class="item">FRUITS</li>
+            <li class="item">VEGETABLES</li>
+            <li class="item">CANNED ITEMS</li>
+            <li class="item">FRESH BAKED PRODUCTS</li>
+            <li class="item">MEAT SECTION</li>
+        </ul>
+        <!--Creates a add item button on the webpage-->
+        <button id="add-item-button">Add Item</button>
+        <!--A form is a section where users can enter information, like text boxes, checkboxes, and buttons.-->
+        <form id="example-form">
+
+            <input type="text" id="name-field" required placeholder="Enter item here">
+
+            <button id="delete-item-button">Delete Item</button>
+        </form>
+
+
+        <div id="deleted-items"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
