@@ -45,25 +45,25 @@ const description = document.querySelector("#description");
 
 description.setAttribute("title", "This is a description");
 
-// // // Include at least one form and/or input with DOM event-based validation 
-// const exampleForm = document.getElementById("example-form");
-// // const nameField = document.getElementById("name-field");
-// // const deleted-items = document.getElementById("deleted-items");
+// // Include at least one form and/or input with DOM event-based validation 
+const exampleForm = document.getElementById("example-form");
+// const nameField = document.getElementById("name-field");
+// const deleted-items = document.getElementById("deleted-items");
 
-// exampleForm.addEventListener("delete", function (event) {
+exampleForm.addEventListener("delete", function (event) {
 
-//     event.preventDefault();
+    event.preventDefault();
+    
+    // if (nameField.value === "") {
 
-//     // if (nameField.value === "") {
+    //     alert("Input field is required!");
+    // } else {
 
-//     //     alert("Input field is required!");
-//     // } else {
+    //     deleted - items.textContent = `You entered: ${nameField.value}`;
 
-//     //     deleted - items.textContent = `You entered: ${nameField.value}`;
-
-//     //     deleted - items.style.color = "blue";
-//     //     nameField.value = "";
-//     // }
+    //     deleted - items.style.color = "blue";
+    //     nameField.value = "";
+    // }
     // Use at least two Browser Object Model (BOM) properties or methods.
     // // Display an alert with window dimensions
     // window.alert(`Window dimensions: ${window.innerWidth}x${window.innerHeight}`);
@@ -84,3 +84,4 @@ description.setAttribute("title", "This is a description");
 
     // Display the screen width and height
     console.log(`Screen width: ${screen.width}, Screen height: ${screen.height}`);
+})
