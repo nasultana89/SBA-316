@@ -45,41 +45,41 @@ const description = document.querySelector("#description");
 
 description.setAttribute("title", "This is a description");
 
-// Include at least one form and/or input with DOM event-based validation 
-const exampleForm = document.getElementById("example-form");
-const nameField = document.getElementById("name-field");
-const deleted-items = document.getElementById("deleted-items");
+// // Include at least one form and/or input with DOM event-based validation 
+// const exampleForm = document.getElementById("example-form");
+// const nameField = document.getElementById("name-field");
+// const deleted-items = document.getElementById("deleted-items");
 
-exampleForm.addEventListener("delete", function (event) {
+// exampleForm.addEventListener("delete", function (event) {
 
-    event.preventDefault();
-})
-if (nameField.value === "") {
+//     event.preventDefault();
+// })
+// if (nameField.value === "") {
 
-    alert("Input field is required!");
-} else {
+//     alert("Input field is required!");
+// } else {
 
-    deleted - items.textContent = `You entered: ${nameField.value}`;
+//     deleted - items.textContent = `You entered: ${nameField.value}`;
 
-    deleted - items.style.color = "blue";
-    nameField.value = "";
-}
-// Display an alert with window dimensions
-window.alert(`Window dimensions: ${window.innerWidth}x${window.innerHeight}`);
+//     deleted - items.style.color = "blue";
+//     nameField.value = "";
+// }
+// // Display an alert with window dimensions
+// window.alert(`Window dimensions: ${window.innerWidth}x${window.innerHeight}`);
 
-// Redirect to a new URL
-window.location.href = "https://www.example.com";
+// // Redirect to a new URL
+// // window.location.href = "https://www.example.com";
 
-// Navigate back in history
-window.history.back();
+// // Navigate back in history
+// window.history.back();
 
-// Log the user-agent string
-console.log(`User-Agent: ${navigator.userAgent}`);
+// // Log the user-agent string
+// console.log(`User-Agent: ${navigator.userAgent}`);
 
-// Get the user's current geographic position
-navigator.geolocation.getCurrentPosition(function(position) {
-    console.log(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
-});
+// // Get the user's current geographic position
+// navigator.geolocation.getCurrentPosition(function(position) {
+//     console.log(`Latitude: ${position.coords.latitude}, Longitude: ${position.coords.longitude}`);
+// });
 
-// Display the screen width and height
-console.log(`Screen width: ${screen.width}, Screen height: ${screen.height}`);
+// // Display the screen width and height
+// console.log(`Screen width: ${screen.width}, Screen height: ${screen.height}`);
